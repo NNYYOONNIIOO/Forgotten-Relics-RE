@@ -1,0 +1,459 @@
+{
+  "entries": [
+    {
+      "key": "SPELLBOOK_THEORY",
+      "name": "fr.name.SpellbookTheory",
+      "category": "FORGOTTEN_RELICS",
+      "icons": [
+        "minecraft:writable_book"
+      ],
+      "parents": [
+        "GENERICTHEORY", "CrimsonRites"
+      ],
+      "meta": ["ROUND"],
+      "location": [2, 2],
+      "stages": [
+        {
+          "text": "fr.text.SpellbookTheory.1",
+          "required_knowledge": [
+            "THEORY;FORGOTTEN_RELICS;4","OBSERVATION;ELDRITCH;10","OBSERVATION;INFUSION;8"
+          ]
+        },
+        {
+          "text": "fr.text.SpellbookTheory.2"
+        },
+        {
+          "text": "fr.text.SpellbookTheory.3"
+        }
+      ]
+    },
+    {
+      "key": "TOME_OF_DISCORD",
+      "name": "fr.name.DiscordTome",
+      "category": "FORGOTTEN_RELICS",
+      "icons": [
+        "forgotten_relics:tome_of_discord"
+      ],
+      "parents": [
+        "SPELLBOOK_THEORY", "FOCUSPORTABLEHOLE", "!ElementiumIngot"
+      ],
+      "meta": ["HIDDEN"],
+      "location": [1, 4],
+      "stages": [
+        {
+          "text": "fr.text.DiscordTome.1",
+          "required_knowledge": [
+            "THEORY;FORGOTTEN_RELICS;5","OBSERVATION;ELDRITCH;10","OBSERVATION;INFUSION;8"
+          ],
+          "warp": 3
+        },
+        {
+          "text": "fr.text.DiscordTome.2",
+          "recipes": ["forgotten_relics:tome_of_discord"]
+        }
+      ]
+    },
+    {
+      "key": "TOME_OF_BROKEN_FATES",
+      "name": "fr.name.FateTome",
+      "category": "FORGOTTEN_RELICS",
+      "icons": [
+        "forgotten_relics:tome_of_broken_fates"
+      ],
+      "parents": [
+        "SPELLBOOK_THEORY", "ELDRITCHMAJOR", "!GaiaSpirit", "!DragonStone", "!TotemOfUndying"
+      ],
+      "meta": ["SPIKY", "HIDDEN"],
+      "location": [3, 4],
+      "stages": [
+        {
+          "text": "fr.text.FateTome.1",
+          "required_knowledge": [
+            "THEORY;FORGOTTEN_RELICS;7","OBSERVATION;ELDRITCH;11","OBSERVATION;INFUSION;8"
+          ],
+          "warp": 8
+        },
+        {
+          "text": "fr.text.FateTome.2",
+          "recipes": ["forgotten_relics:tome_of_broken_fates"]
+        }
+      ]
+    },
+    {
+      "key": "THUNDERPEAL",
+      "name": "fr.name.Thunderpeal",
+      "category": "FORGOTTEN_RELICS",
+      "icons": [
+        "forgotten_relics:thunderpeal"
+      ],
+      "parents": [
+        "TOME_OF_DISCORD", "FOCUSSHOCK", "FOCALMANIPULATION"
+      ],
+      "location": [0, 6],
+      "stages": [
+        {
+          "text": "fr.text.Thunderpeal.1",
+          "required_knowledge": [
+            "THEORY;FORGOTTEN_RELICS;5","OBSERVATION;ELDRITCH;10","OBSERVATION;INFUSION;8"
+          ]
+        },
+        {
+          "text": "fr.text.Thunderpeal.2",
+          "recipes": ["forgotten_relics:thunderpeal"]
+        }
+      ]
+    },
+    {
+      "key": "TOME_OF_PREDESTINY",
+      "name": "fr.name.TelekinesisTome",
+      "category": "FORGOTTEN_RELICS",
+      "icons": [
+        "forgotten_relics:tome_of_predestiny"
+      ],
+      "parents": [
+        "THUNDERPEAL", "ELDRITCHMINOR", "!GaiaSpirit", "!GravityRod", "!VoidSeed", "!SkeletonHorse"
+      ],
+      "meta": ["HIDDEN"],
+      "location": [0, 8],
+      "stages": [
+        {
+          "text": "fr.text.TelekinesisTome.1",
+          "required_knowledge": [
+            "THEORY;FORGOTTEN_RELICS;6","OBSERVATION;ELDRITCH;11","OBSERVATION;INFUSION;8"
+          ]
+        },
+        {
+          "text": "fr.text.TelekinesisTome.2"
+        },
+        {
+          "text": "fr.text.TelekinesisTome.3",
+          "recipes": ["forgotten_relics:tome_of_predestiny"]
+        }
+      ]
+    },
+    {
+      "key": "EDICT_OF_BANISHMENT",
+      "name": "fr.name.Overthrower",
+      "category": "FORGOTTEN_RELICS",
+      "icons": [
+        "forgotten_relics:edict_of_banishment"
+      ],
+      "parents": [
+        "TOME_OF_DISCORD", "FOCUSHELLBAT", "!HellFocus", "!NetherWart"
+      ],
+      "meta": ["SPIKY", "HEX", "HIDDEN"],
+      "location": [-2, 6],
+      "stages": [
+        {
+          "text": "fr.text.Overthrower.1",
+          "required_knowledge": [
+            "THEORY;FORGOTTEN_RELICS;6","OBSERVATION;ELDRITCH;11","OBSERVATION;INFUSION;8"
+          ],
+          "warp": 3
+        },
+        {
+          "text": "fr.text.Overthrower.2"
+        },
+        {
+          "text": "fr.text.Overthrower.3",
+          "recipes": ["forgotten_relics:edict_of_banishment"]
+        }
+      ]
+    },
+    {
+      "key": "DEVOURER_OF_THE_VOID",
+      "name": "fr.name.ObeliskDrainer",
+      "category": "FORGOTTEN_RELICS",
+      "icons": [
+        "forgotten_relics:devourer_of_the_void"
+      ],
+      "parents": [
+        "TOME_OF_DISCORD", "ELDRITCHMAJOR", "VOIDMETAL", "ENCHFABRIC", "NITOR", "OCULUS"
+      ],
+      "location": [3, 6],
+      "stages": [
+        {
+          "text": "fr.text.ObeliskDrainer.1",
+          "required_knowledge": [
+            "THEORY;FORGOTTEN_RELICS;7","OBSERVATION;ELDRITCH;11","OBSERVATION;INFUSION;8"
+          ],
+          "warp": 4
+        },
+        {
+          "text": "fr.text.ObeliskDrainer.2",
+          "recipes": ["forgotten_relics:devourer_of_the_void"]
+        }
+      ]
+    },
+    {
+      "key": "ELDRITCH_SPELL",
+      "name": "fr.name.EldritchSpell",
+      "category": "FORGOTTEN_RELICS",
+      "icons": [
+        "forgotten_relics:eldritch_spell"
+      ],
+      "parents": [
+        "DEVOURER_OF_THE_VOID", "!EldritchEye", "!GaiaSpirit"
+      ],
+      "meta": ["SPIKY", "HIDDEN"],
+      "location": [4, 8],
+      "stages": [
+        {
+          "text": "fr.text.EldritchSpell.1",
+          "required_knowledge": [
+            "THEORY;FORGOTTEN_RELICS;8","OBSERVATION;ELDRITCH;12","OBSERVATION;INFUSION;8"
+          ],
+          "warp": 6
+        },
+        {
+          "text": "fr.text.EldritchSpell.2",
+          "recipes": ["forgotten_relics:eldritch_spell"]
+        }
+      ]
+    },
+    {
+      "key": "CRIMSON_SPELL",
+      "name": "fr.name.CrimsonSpell",
+      "category": "FORGOTTEN_RELICS",
+      "icons": [
+        "forgotten_relics:crimson_spell"
+      ],
+      "parents": [
+        "ELDRITCH_SPELL", "!CrimsonCultist"
+      ],
+      "meta": ["HIDDEN"],
+      "location": [3, 10],
+      "stages": [
+        {
+          "text": "fr.text.CrimsonSpell.1",
+          "required_knowledge": [
+            "THEORY;FORGOTTEN_RELICS;8","OBSERVATION;ELDRITCH;12","OBSERVATION;INFUSION;8"
+          ],
+          "warp": 5
+        },
+        {
+          "text": "fr.text.CrimsonSpell.2"
+        },
+        {
+          "text": "fr.text.CrimsonSpell.3",
+          "recipes": ["forgotten_relics:crimson_spell"]
+        }
+      ]
+    },
+    {
+      "key": "TOME_OF_PRIMAL_CHAOS",
+      "name": "fr.name.ChaosTome",
+      "category": "FORGOTTEN_RELICS",
+      "icons": [
+        "forgotten_relics:tome_of_primal_chaos"
+      ],
+      "parents": [
+        "ELDRITCH_SPELL", "!GaiaSpirit", "!PrimalFocus", "!ParadoxMaterial"
+      ],
+      "meta": ["HIDDEN"],
+      "location": [5, 10],
+      "stages": [
+        {
+          "text": "fr.text.ChaosTome.1",
+          "required_knowledge": [
+            "THEORY;FORGOTTEN_RELICS;9","OBSERVATION;ELDRITCH;12","OBSERVATION;INFUSION;8"
+          ],
+          "warp": 7
+        },
+        {
+          "text": "fr.text.ChaosTome.2",
+          "recipes": ["forgotten_relics:tome_of_primal_chaos"]
+        }
+      ]
+    },
+    {
+      "key": "NUCLEAR_FURY",
+      "name": "fr.name.NuclearFury",
+      "category": "FORGOTTEN_RELICS",
+      "icons": [
+        "forgotten_relics:nuclear_fury"
+      ],
+      "parents": [
+        "TOME_OF_PRIMAL_CHAOS", "PRIMPEARL", "!MissileRod", "!TerrasteelIngot", "!Alumentum"
+      ],
+      "meta": ["HIDDEN"],
+      "location": [5, 12],
+      "stages": [
+        {
+          "text": "fr.text.NuclearFury.1",
+          "required_knowledge": [
+            "THEORY;FORGOTTEN_RELICS;10","OBSERVATION;ELDRITCH;12","OBSERVATION;INFUSION;8"
+          ],
+          "warp": 4
+        },
+        {
+          "text": "fr.text.NuclearFury.2"
+        },
+        {
+          "text": "fr.text.NuclearFury.3",
+          "recipes": ["forgotten_relics:nuclear_fury"]
+        }
+      ]
+    },
+    {
+      "key": "SOUL_TOME",
+      "name": "fr.name.SoulTome",
+      "category": "FORGOTTEN_RELICS",
+      "icons": [
+        "forgotten_relics:soul_tome"
+      ],
+      "parents": [
+        "DEVOURER_OF_THE_VOID", "JARBRAIN", "!PechFocus", "!GaiaSpirit", "!JarredBrain", "!EnderEye", "!Alumentum"
+      ],
+      "meta": ["HIDDEN"],
+      "location": [6, 8],
+      "stages": [
+        {
+          "text": "fr.text.SoulTome.1",
+          "required_knowledge": [
+            "THEORY;FORGOTTEN_RELICS;7","OBSERVATION;ELDRITCH;11","OBSERVATION;INFUSION;8"
+          ],
+          "warp": 3
+        },
+        {
+          "text": "fr.text.SoulTome.2",
+          "recipes": ["forgotten_relics:soul_tome"]
+        }
+      ]
+    },
+    {
+      "key": "TOME_OF_LUNAR_FLARES",
+      "name": "fr.name.LunarFlares",
+      "category": "FORGOTTEN_RELICS",
+      "icons": [
+        "forgotten_relics:tome_of_lunar_flares"
+      ],
+      "parents": [
+        "TOME_OF_PREDESTINY", "ELDRITCH_SPELL", "PRIMPEARL", "!StarSword", "!TerrasteelIngot", "!EnderAir"
+      ],
+      "meta": ["HIDDEN"],
+      "location": [1, 10],
+      "stages": [
+        {
+          "text": "fr.text.LunarFlares.1",
+          "required_knowledge": [
+            "THEORY;FORGOTTEN_RELICS;8","OBSERVATION;ELDRITCH;12","OBSERVATION;INFUSION;8"
+          ]
+        },
+        {
+          "text": "fr.text.LunarFlares.2",
+          "recipes": ["forgotten_relics:tome_of_lunar_flares"]
+        }
+      ]
+    },
+    {
+      "key": "APOTHEOSIS",
+      "name": "fr.name.Apotheosis",
+      "category": "FORGOTTEN_RELICS",
+      "icons": [
+        "forgotten_relics:apotheosis"
+      ],
+      "parents": [
+        "TOME_OF_DISCORD", "!KingsKey", "!GaiaGuardian"
+      ],
+      "meta": ["ROUND", "SPIKY"],
+      "location": [2, 14],
+      "stages": [
+        {
+          "text": "fr.text.Apotheosis.1",
+          "required_knowledge": [
+            "THEORY;FORGOTTEN_RELICS;10","OBSERVATION;ELDRITCH;12","OBSERVATION;INFUSION;8"
+          ],
+          "warp": 10
+        },
+        {
+          "text": "fr.text.Apotheosis.2"
+        },
+        {
+          "text": "fr.text.Apotheosis.3",
+          "recipes": ["forgotten_relics:apotheosis"]
+        }
+      ]
+    },
+    {
+      "key": "FALSE_JUSTICE",
+      "name": "fr.name.FalseJustice",
+      "category": "FORGOTTEN_RELICS",
+      "icons": [
+        "forgotten_relics:false_justice"
+      ],
+      "parents": [
+        "APOTHEOSIS"
+      ],
+      "meta": ["ROUND", "SPIKY"],
+      "location": [2, 16],
+      "stages": [
+        {
+          "text": "fr.text.FalseJustice.1",
+          "required_knowledge": [
+            "THEORY;FORGOTTEN_RELICS;10","OBSERVATION;ELDRITCH;12","OBSERVATION;INFUSION;8"
+          ],
+          "warp": 4
+        },
+        {
+          "text": "fr.text.FalseJustice.2",
+          "recipes": ["forgotten_relics:false_justice"]
+        }
+      ]
+    },
+    {
+      "key": "VOID_GRIMOIRE",
+      "name": "fr.name.VoidGrimoire",
+      "category": "FORGOTTEN_RELICS",
+      "icons": [
+        "forgotten_relics:void_grimoire"
+      ],
+      "parents": [
+        "EDICT_OF_BANISHMENT", "OCULUS", "!TerrorCrown", "!ChaosCore", "!EldritchTablet", "!EldritchEye", "!VoidSeed", "!Bedrock"
+      ],
+      "meta": ["HIDDEN"],
+      "location": [-4, 8],
+      "stages": [
+        {
+          "text": "fr.text.VoidGrimoire.1",
+          "required_knowledge": [
+            "THEORY;FORGOTTEN_RELICS;8","OBSERVATION;ELDRITCH;12","OBSERVATION;INFUSION;8"
+          ],
+          "warp": 4
+        },
+        {
+          "text": "fr.text.VoidGrimoire.2"
+        },
+        {
+          "text": "fr.text.VoidGrimoire.3",
+          "recipes": ["forgotten_relics:void_grimoire"]
+        }
+      ]
+    },
+    {
+      "key": "DISCORD_RING",
+      "name": "fr.name.DiscordRing",
+      "category": "FORGOTTEN_RELICS",
+      "icons": [
+        "forgotten_relics:discord_ring"
+      ],
+      "parents": [
+        "DEIFIC_AMULET", "TOME_OF_DISCORD"
+      ],
+      "meta": ["HEX"],
+      "location": [1, -4],
+      "stages": [
+        {
+          "text": "fr.text.DiscordRing.1",
+          "required_knowledge": [
+            "THEORY;FORGOTTEN_RELICS;5","OBSERVATION;ELDRITCH;10","OBSERVATION;INFUSION;8"
+          ]
+        },
+        {
+          "text": "fr.text.DiscordRing.2",
+          "recipes": ["forgotten_relics:discord_ring"]
+        }
+      ]
+    }
+  ]
+}
