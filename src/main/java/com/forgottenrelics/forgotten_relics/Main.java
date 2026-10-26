@@ -108,11 +108,11 @@ import thaumcraft.common.entities.monster.cult.EntityCultist;
 import vazkii.botania.common.entity.EntityDoppleganger;
 import vazkii.botania.common.item.ModItems;
 
-@Mod(modid="forgotten_relics", name="Forgotten Relics RE", version="0.7.0", acceptedMinecraftVersions="[1.12.2]")
+@Mod(modid="forgotten_relics", name="Forgotten Relics RE", version="1.0.2", acceptedMinecraftVersions="[1.12.2]", dependencies="required-after:botania;required-after:baubles;required-after:thaumcraft;after:thaumicaugmentation")
 public class Main {
     public static final String MOD_ID = "forgotten_relics";
     public static final String MOD_NAME = "Forgotten Relics RE";
-    public static final String VERSION = "0.7.0";
+    public static final String VERSION = "1.0.2";
     @CapabilityInject(value=PlayerVariables.class)
     public static Capability<PlayerVariables> PLAYER = null;
     public static SimpleNetworkWrapper packetInstance;

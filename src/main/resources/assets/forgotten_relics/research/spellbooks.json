@@ -21,9 +21,6 @@
         },
         {
           "text": "fr.text.SpellbookTheory.2"
-        },
-        {
-          "text": "fr.text.SpellbookTheory.3"
         }
       ]
     },
@@ -35,7 +32,7 @@
         "forgotten_relics:tome_of_discord"
       ],
       "parents": [
-        "SPELLBOOK_THEORY", "FOCUSPORTABLEHOLE", "!ElementiumIngot"
+        "SPELLBOOK_THEORY", "!ElementiumIngot"
       ],
       "meta": ["HIDDEN"],
       "location": [1, 4],
@@ -61,7 +58,7 @@
         "forgotten_relics:tome_of_broken_fates"
       ],
       "parents": [
-        "SPELLBOOK_THEORY", "ELDRITCHMAJOR", "!GaiaSpirit", "!DragonStone", "!TotemOfUndying"
+        "SPELLBOOK_THEORY", "!GaiaSpirit", "!DragonStone", "!TotemOfUndying"
       ],
       "meta": ["SPIKY", "HIDDEN"],
       "location": [3, 4],
@@ -87,9 +84,9 @@
         "forgotten_relics:thunderpeal"
       ],
       "parents": [
-        "TOME_OF_DISCORD", "FOCUSSHOCK", "FOCALMANIPULATION"
+        "TOME_OF_DISCORD"
       ],
-      "location": [0, 6],
+      "location": [1, 6],
       "stages": [
         {
           "text": "fr.text.Thunderpeal.1",
@@ -111,10 +108,10 @@
         "forgotten_relics:tome_of_predestiny"
       ],
       "parents": [
-        "THUNDERPEAL", "ELDRITCHMINOR", "!GaiaSpirit", "!GravityRod", "!VoidSeed", "!SkeletonHorse"
+        "THUNDERPEAL", "!GaiaSpirit", "!GravityRod", "!VoidSeed", "!SkeletonHorse"
       ],
       "meta": ["HIDDEN"],
-      "location": [0, 8],
+      "location": [1, 8],
       "stages": [
         {
           "text": "fr.text.TelekinesisTome.1",
@@ -139,10 +136,10 @@
         "forgotten_relics:edict_of_banishment"
       ],
       "parents": [
-        "TOME_OF_DISCORD", "FOCUSHELLBAT", "!HellFocus", "!NetherWart"
+        "TOME_OF_DISCORD", "!HellFocus", "!NetherWart"
       ],
       "meta": ["SPIKY", "HEX", "HIDDEN"],
-      "location": [-2, 6],
+      "location": [-1, 5],
       "stages": [
         {
           "text": "fr.text.Overthrower.1",
@@ -168,9 +165,9 @@
         "forgotten_relics:devourer_of_the_void"
       ],
       "parents": [
-        "TOME_OF_DISCORD", "ELDRITCHMAJOR", "VOIDMETAL", "ENCHFABRIC", "NITOR", "OCULUS"
+        "TOME_OF_DISCORD"
       ],
-      "location": [3, 6],
+      "location": [5, 4],
       "stages": [
         {
           "text": "fr.text.ObeliskDrainer.1",
@@ -196,7 +193,7 @@
         "DEVOURER_OF_THE_VOID", "!EldritchEye", "!GaiaSpirit"
       ],
       "meta": ["SPIKY", "HIDDEN"],
-      "location": [4, 8],
+      "location": [6, 6],
       "stages": [
         {
           "text": "fr.text.EldritchSpell.1",
@@ -222,7 +219,7 @@
         "ELDRITCH_SPELL", "!CrimsonCultist"
       ],
       "meta": ["HIDDEN"],
-      "location": [3, 10],
+      "location": [5, 8],
       "stages": [
         {
           "text": "fr.text.CrimsonSpell.1",
@@ -251,7 +248,7 @@
         "ELDRITCH_SPELL", "!GaiaSpirit", "!PrimalFocus", "!ParadoxMaterial"
       ],
       "meta": ["HIDDEN"],
-      "location": [5, 10],
+      "location": [8, 7],
       "stages": [
         {
           "text": "fr.text.ChaosTome.1",
@@ -277,7 +274,7 @@
         "TOME_OF_PRIMAL_CHAOS", "PRIMPEARL", "!MissileRod", "!TerrasteelIngot", "!Alumentum"
       ],
       "meta": ["HIDDEN"],
-      "location": [5, 12],
+      "location": [9, 9],
       "stages": [
         {
           "text": "fr.text.NuclearFury.1",
@@ -306,7 +303,7 @@
         "DEVOURER_OF_THE_VOID", "JARBRAIN", "!PechFocus", "!GaiaSpirit", "!JarredBrain", "!EnderEye", "!Alumentum"
       ],
       "meta": ["HIDDEN"],
-      "location": [6, 8],
+      "location": [6, 3],
       "stages": [
         {
           "text": "fr.text.SoulTome.1",
@@ -332,7 +329,7 @@
         "TOME_OF_PREDESTINY", "ELDRITCH_SPELL", "PRIMPEARL", "!StarSword", "!TerrasteelIngot", "!EnderAir"
       ],
       "meta": ["HIDDEN"],
-      "location": [1, 10],
+      "location": [3, 7],
       "stages": [
         {
           "text": "fr.text.LunarFlares.1",
@@ -357,7 +354,7 @@
         "TOME_OF_DISCORD", "!KingsKey", "!GaiaGuardian"
       ],
       "meta": ["ROUND", "SPIKY"],
-      "location": [2, 14],
+      "location": [0, 3],
       "stages": [
         {
           "text": "fr.text.Apotheosis.1",
@@ -386,7 +383,7 @@
         "APOTHEOSIS"
       ],
       "meta": ["ROUND", "SPIKY"],
-      "location": [2, 16],
+      "location": [-1, 2],
       "stages": [
         {
           "text": "fr.text.FalseJustice.1",
@@ -409,10 +406,10 @@
         "forgotten_relics:void_grimoire"
       ],
       "parents": [
-        "EDICT_OF_BANISHMENT", "OCULUS", "!TerrorCrown", "!ChaosCore", "!EldritchTablet", "!EldritchEye", "!VoidSeed", "!Bedrock"
+        "EDICT_OF_BANISHMENT", "!TerrorCrown", "!ChaosCore", "!EldritchTablet", "!EldritchEye", "!VoidSeed", "!Bedrock"
       ],
       "meta": ["HIDDEN"],
-      "location": [-4, 8],
+      "location": [-2, 7],
       "stages": [
         {
           "text": "fr.text.VoidGrimoire.1",
